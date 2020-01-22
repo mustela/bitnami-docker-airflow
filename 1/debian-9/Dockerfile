@@ -57,11 +57,11 @@ ENV AIRFLOW_BASE_URL="" \
     REDIS_PASSWORD="" \
     REDIS_PORT_NUMBER="6379" \
     REDIS_USER="" \
-    LANGUAGE en_US.UTF-8 \
-    LANG en_US.UTF-8 \
-    LC_ALL en_US.UTF-8 \
-    LC_CTYPE en_US.UTF-8 \
-    LC_MESSAGES en_US.UTF-8
+    LANGUAGE=en_US.UTF-8 \
+    LANG=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8 \
+    LC_CTYPE=en_US.UTF-8 \
+    LC_MESSAGES=en_US.UTF-8
 
 EXPOSE 8080
 
